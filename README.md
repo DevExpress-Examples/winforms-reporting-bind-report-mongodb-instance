@@ -19,7 +19,7 @@ Add the created queries to the MongoDB data source's [Queries](https://docs.deve
 ---
 **NOTE**
 
-This example [uses](./CS/Form1.cs#L22) the following connection string to connect to a MongoDB instance: `mongodb://localhost:27017`. The example also [specifies](./CS/Form1.cs#L26) queries to load data from the collections of the *Northwind* database. Before you run this example, specify a connection string and data queries to a configured MongoDB instance.
+This example [uses](./CS/Form1.cs#L19) the following connection string to connect to a MongoDB instance: `mongodb://localhost:27017`. The example also [specifies](./CS/Form1.cs#L22) queries to load data from the collections of the *Northwind* database. Before you run this example, specify a connection string and data queries to a configured MongoDB instance.
 
 ---
 
