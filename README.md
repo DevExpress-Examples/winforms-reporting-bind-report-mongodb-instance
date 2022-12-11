@@ -1,9 +1,4 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/366370252/2021.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T997274)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-Files to look at:
+﻿Files to look at:
 
 * [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
 
@@ -12,7 +7,7 @@ Files to look at:
 You should create and set up a [MongoDBDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.MongoDB.MongoDBDataSource?v=21.1) object to bind a report to a MongoDB instance in code. 
 
 * Specify connection parameters to connect to a MongoDB instance. You can create a [MongoDBConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBConnectionParameters?v=21.1)
-class instance and specify connection parameters individually, such as a hostname and port. If you want to use a [connection string](https://docs.mongodb.com/manual/reference/connection-string/), you can create a [MongoDBCustomConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters?v=21.1) object
+class instance and specify connection parameters individually, such as a hostname and port. If you want to use a [connection string](https://www.mongodb.com/docs/manual/reference/connection-string/), you can create a [MongoDBCustomConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters?v=21.1) object
 and assign this string to the object's [ConnectionString](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters.ConnectionString?v=21.1) property.
 Assign the created connection parameters to the MongoDB data source's [ConnectionParameter](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.MongoDB.MongoDBDataSourceBase.ConnectionParameters?v=21.1) property.
 
