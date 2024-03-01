@@ -11,7 +11,7 @@ Files to look at:
 You should create and set up a [MongoDBDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.MongoDB.MongoDBDataSource?v=21.1) object to bind a report to a MongoDB instance in code. 
 
 * Specify connection parameters to connect to a MongoDB instance. You can create a [MongoDBConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBConnectionParameters?v=21.1)
-class instance and specify connection parameters individually, such as a hostname and port. If you want to use a [connection string](https://docs.mongodb.com/manual/reference/connection-string/), you can create a [MongoDBCustomConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters?v=21.1) object
+class instance and specify connection parameters individually, such as a hostname and port. If you want to use a [connection string](https://www.mongodb.com/docs/manual/reference/connection-string/), you can create a [MongoDBCustomConnectionParameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters?v=21.1) object
 and assign this string to the object's [ConnectionString](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ConnectionParameters.MongoDBCustomConnectionParameters.ConnectionString?v=21.1) property.
 Assign the created connection parameters to the MongoDB data source's [ConnectionParameter](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.MongoDB.MongoDBDataSourceBase.ConnectionParameters?v=21.1) property.
 
