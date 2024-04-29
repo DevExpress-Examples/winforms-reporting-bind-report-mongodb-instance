@@ -1,6 +1,8 @@
+﻿#region usings
 using DevExpress.DataAccess.ConnectionParameters;
 using DevExpress.DataAccess.MongoDB;
 using DevExpress.XtraReports.UI;
+#endregion
 
 using System;
 using System.Windows.Forms;
@@ -12,6 +14,7 @@ namespace Bind_a_Report_to_a_MongoDB_Instance {
         }
 
         private void Form1_Load(object sender, EventArgs e) {
+            #region bindReportToMongoDBInstanceExample
             // Create a MongoDBCustomConnectionParameters object and assign
             // a connection string to a MongoDB instance to the object's
             // ConnectionString property.
@@ -47,6 +50,7 @@ namespace Bind_a_Report_to_a_MongoDB_Instance {
 
             // Configure the report layout.
             // ...
+            #endregion
 
             //mongoDBDataSource.RebuildResultSchema();
             report.ShowDesigner();
