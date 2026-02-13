@@ -33,7 +33,7 @@ This example [uses](./CS/Form1.cs#L19) the following connection string to connec
 
 [Bind Reports to Data: MongoDB Instance](https://docs.devexpress.com/XtraReports/403044/detailed-guide-to-devexpress-reporting/bind-reports-to-data/mongodb-instance?v=21.1)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-bind-report-mongodb-instance&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-bind-report-mongodb-instance&~~~was_helpful=no)
 
