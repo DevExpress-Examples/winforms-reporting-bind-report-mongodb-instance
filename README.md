@@ -29,7 +29,7 @@ Add the created queries to the MongoDB data source's [Queries](https://docs.deve
 
 * [Bind Reports to Data: MongoDB Instance](https://docs.devexpress.com/XtraReports/403044/detailed-guide-to-devexpress-reporting/bind-reports-to-data/mongodb-instance)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-bind-report-mongodb-instance&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-reporting-bind-report-mongodb-instance&~~~was_helpful=no)
 
